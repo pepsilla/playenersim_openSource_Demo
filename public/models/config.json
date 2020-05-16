@@ -1,0 +1,27 @@
+{
+    "info":{
+        "player":"110520201111"
+    },
+    "models":[
+        {
+            "tittle":"Circuito tracción c.c. DEMO LIBRE",
+            "label": "Demo",
+            "visual":"models/visualModel.svg",
+            "data":"models/dataModel.json"
+        }
+    ],
+    "groups":[
+        {
+            "label":"S/E",
+            "key": "_esquemaSE",
+            "enabled": true
+        },
+        {
+            "label": "L.A.C.",
+            "key": "_esquemaLAC",
+            "enabled": true
+        }
+    ],
+    "user":"demo",
+    "local": true
+}

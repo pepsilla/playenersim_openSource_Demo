@@ -1,0 +1,170 @@
+*{ 
+    box-sizing: border-box;
+}
+body{
+    overflow-y: hidden;
+    background-color: black;
+}
+
+@keyframes animeStroke{
+
+    from{
+        stroke-dashoffset: 0; 
+    }
+    to{
+        stroke-dashoffset: 10;
+    }
+
+}
+
+@keyframes animeOpacity{
+
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+
+}
+
+@keyframes animeOpacityDashOffset{
+
+    from{
+        fill-opacity: 1;
+        stroke-dashoffset: 10;
+    }
+    to{
+        fill-opacity: 0;
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes ocultar_animacion{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes mostrar_animacion{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+
+.selector_player{
+    opacity: 1;
+    stroke: #f5d166;
+    stroke-dasharray: 4;
+    stroke: 2;
+    fill: #92d4fa;
+    animation: animeOpacityDashOffset 0.5s alternate-reverse infinite ease-in-out;
+}
+
+.showSelector{
+    opacity: 1;
+    stroke: #eb32ad;
+    stroke-dasharray: 4;
+    animation: animeOpacity 0.5s alternate-reverse infinite ease-in-out;
+
+}
+.mostrar_subestaciones{
+    opacity: 1;
+     animation: mostrar_animacion 1s ease-in;
+}
+.ocultar_subestaciones{
+    opacity: 0;
+    animation: ocultar_animacion 3s ease-out;
+}
+.conductor_no_tension{
+    
+    stroke: green;
+    fill: none;
+    stroke-width: 2;
+    color: green;
+}
+.conductor_tension{
+    stroke: red;
+    fill: none;
+    stroke-width: 2;
+    color: red
+}
+.conductor_tension_par{
+    stroke: blue;
+    fill: none;
+    stroke-width: 2;
+    color: blue
+}
+.fuente_fider{
+    font-family: "Roboto"; 
+    fill: white;
+    font-size: medium;
+}
+.fuente_cir{
+    font-family: "Roboto"; 
+    fill: rgb(122, 180, 246);
+    font-size: small;
+}
+.fuente_lac{
+    font-family: "Roboto"; 
+    fill: white;
+    font-size: xx-small;
+}
+.tierra_general{
+    stroke: rgb(209, 140, 13);
+    color: rgb(209, 140, 13);
+}
+.negativo_traccion{
+    stroke: gray;
+    fill: gray;
+    color: gray;
+}
+.modelo_visual{
+    height: 100%;
+    width: 100%;
+}
+.elemento_conductor{
+    fill:none;
+    stroke-width:2;
+    stroke-miterlimit:10;
+}
+.linea_senyales{
+    stroke: peru;
+    fill: peru;
+    color: peru;
+}
+.ssaa_bt{
+    stroke: turquoise;
+    fill: turquoise;
+    color: turquoise;
+}
+.ssaa_bt_cc{
+    stroke: lightskyblue;
+    fill: lightskyblue;
+    color: lightskyblue;
+}
+.ssaa_mbt{
+    stroke: lightblue;
+    fill: lightblue;
+    color: blue;
+}
+.at_cc{
+    stroke: white;
+    fill: white;
+    color: white;
+}
+.open{
+    background-color: green;
+    color: white;
+}
+.closed{
+    background-color: red;
+    color: white;
+}

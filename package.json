@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "@mdi/font": "^5.0.45",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.4",
-    "firebase": "^7.14.4",
+    "firebase": "^8.2.2",
     "panzoom": "^9.2.1",
     "scorm-api-wrapper": "0.0.2",
     "vue": "^2.6.11",

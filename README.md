@@ -22,3 +22,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+## 20210801
+Vulnerability fixes:
+  . npm audit fix
+  . npm install firebase@8.2.2 
+  . npm update webpack --depth 2
